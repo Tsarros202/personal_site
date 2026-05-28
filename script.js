@@ -1,7 +1,7 @@
 // =====================================================
 //  GREETING — shown when the page loads
 // =====================================================
-const GREETING = `Hi! I'm <strong>Your Name</strong>. Pick a question below to learn more about me.`;
+const GREETING = `Hi! I'm <strong>Michalis</strong>. Pick a question to learn more about me.`;
 
 // =====================================================
 //  Q&A DATA — edit questions and answers here.
@@ -11,7 +11,7 @@ const GREETING = `Hi! I'm <strong>Your Name</strong>. Pick a question below to l
 const QA = [
   {
     question: "What are you studying?",
-    answer: `I'm completing my BSc in Computer Science at <a href="https://example.com" target="_blank" rel="noopener">University Name</a>, graduating in [Year]. My coursework covers algorithms, machine learning, and distributed systems.`,
+    answer: `I'm completing my BSc in Digital Systems at <a href="https://www.ds.unipi.gr/en/home-en/" target="_blank" rel="noopener">University of Piraeus</a>, graduating in September. My coursework covers algorithms, machine learning, distributed systems, data analysis and information technology.`,
   },
   {
     question: "What are your research interests?",
@@ -38,8 +38,7 @@ See everything on my <a href="https://github.com/yourusername" target="_blank" r
   },
 ];
 
-// =====================================================
-//  CHATBOT LOGIC — no need to edit below this line
+
 // =====================================================
 const chatWindow  = document.getElementById('chatWindow');
 const chipsContainer = document.getElementById('chips');
